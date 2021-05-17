@@ -1,7 +1,7 @@
 // Copyright 2020 Your Name <your_email>
 
-#ifndef INCLUDE_CLIENT_SUGGEST_
-#define INCLUDE_CLIENT_SUGGEST_
+#ifndef INCLUDE_CLIENT_SUGGEST_HPP_
+#define INCLUDE_CLIENT_SUGGEST_HPP_
 #include "nlohmann/json.hpp"
 #include <iostream>
 #include <thread>
@@ -19,4 +19,4 @@ class client_suggest {
   void parse_suggest(const std::string& response_json,
                      std::ostream& out);
 };
-#endif // INCLUDE_CLIENT_SUGGEST_
+#endif // INCLUDE_CLIENT_SUGGEST_HPP_
